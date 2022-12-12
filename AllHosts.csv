@@ -1,0 +1,4 @@
+Domain,Subnet,Hostname,IP,OS
+anomaly.not,OpsNet,SPEC-W10-WS,10.126.50.32,Win10
+anomaly.not,OpsNet,SPEC-W7-WS,10.126.50.31,Win7
+anomaly.not,OpsNet,DC1,10.126.50.9,Windows Server 2012 R2
