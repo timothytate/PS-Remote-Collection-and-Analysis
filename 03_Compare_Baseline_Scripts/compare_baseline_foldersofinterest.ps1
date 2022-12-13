@@ -8,7 +8,7 @@ $targets = Import-Csv ..\AllHosts.csv |
 $configs = Get-Content -Path ..\configuration.json | ConvertFrom-Json
 
 #Get Credentials from the Operator
-$creds = Get-Credential -UserName Administrator@anomaly.not -Message "Password?"
+$creds = Get-Credential
 
 #Set session options (This is required for out of band connections)
 $so = New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck

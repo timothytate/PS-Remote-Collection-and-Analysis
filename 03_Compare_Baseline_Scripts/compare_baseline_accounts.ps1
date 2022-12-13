@@ -5,7 +5,7 @@ $targets = Import-Csv ..\AllHosts.csv |
     Select-Object -ExpandProperty IP
 
 #Get Credentials from the Operator
-$creds = Get-Credential -UserName
+$creds = Get-Credential
 
 #Set session options (This is required for out of band connections)
 $so = New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck

@@ -1,7 +1,7 @@
 ﻿param([string] $FolderOut=".\Audit")
 
 #Get Credentials from the Operator
-$creds = Get-Credential -UserName Administrator@anomaly.not -Message "Password?"
+$creds = Get-Credential
 
 #Import Targets List
 $targets = Import-Csv .\AllHosts.csv

@@ -1,4 +1,11 @@
 Domain,Subnet,Hostname,IP,OS
-anomaly.not,OpsNet,SPEC-W10-WS,10.126.50.32,Win10
-anomaly.not,OpsNet,SPEC-W7-WS,10.126.50.31,Win7
-anomaly.not,OpsNet,DC1,10.126.50.9,Windows Server 2012 R2
+Contoso,OpsNet,WS-1,192.168.10.2,Win10
+Contoso,OpsNet,WS-2,192.168.10.3,Win10
+Contoso,OpsNet,WS-3,192.168.10.4,Win10
+Contoso,OpsNet,WS-4,192.168.10.5,Win10
+Contoso,OpsNet,WS-5,192.168.10.6,Win10
+Contoso,OpsNet,WS-6,192.168.10.7,Win10
+Contoso,OpsNet,WS-7,192.168.10.8,Win10
+Contoso,OpsNet,WS-8,192.168.10.9,Win10
+Contoso,OpsNet,WS-9,192.168.10.10,Win7
+Contoso,OpsNet,WS-10,192.168.10.11,Win7
